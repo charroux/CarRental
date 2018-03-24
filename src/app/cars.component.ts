@@ -21,7 +21,12 @@ export class CarsComponent implements OnInit {
     private router: Router) { }
 
   getCars(): void {
-    this.carService.getCars().then(cars => this.cars = cars);
+    this.carService.getCarsWithPromise().then(cars => this.cars = cars);
+    /*this.carService.getCarsWithObservable().subscribe(
+       res => {
+           this.cars = res;
+       }
+    );*/
   }
 
   ngOnInit(): void {

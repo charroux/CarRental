@@ -7,7 +7,15 @@ import { Component } from '@angular/core';
 	<nav>
    	<a routerLink="/cars">Rent a car</a>
 	</nav>
-   	<router-outlet></router-outlet>
+	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">Source code of the page</a>
+	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">Related routing</a>
+   	<router-outlet></router-outlet><br>
+   	<a href="https://github.com/charroux/CarRental/blob/master/src/app/car.service.ts">Service used in all components</a><br>
+   	This service used:
+   	<ul>
+   		<li><a href="https://angular.io/guide/observables">An observable</a></li>
+   		<li><a href="https://angular.io/guide/comparing-observables">A promise</a></li>
+   	</ul>
 	`
 })
 
