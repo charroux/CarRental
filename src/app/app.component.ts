@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 	</nav>
 	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">Source code of the page</a>
 	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">Related routing</a>
+	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app.module.ts">The main component with the declaration of the components</a>
    	<router-outlet></router-outlet><br>
    	<a href="https://github.com/charroux/CarRental/blob/master/src/app/car.service.ts">Service used in all components</a><br>
    	This service used:
