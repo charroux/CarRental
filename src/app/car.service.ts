@@ -22,10 +22,15 @@ export class CarService {
     return this.http.get("http://localhost:8080/cars").map((response: Response) => response || []);
   }
   
-  getCar(id: number): Promise<Car> {
-	return Promise.resolve(CARS[id]);
+  getCar(plateNumber: number): Promise<Car> {
+	return Promise.resolve(CARS[plateNumber]);
   }
-
+  
+  getCarWithObservable(plateNumber): Observable<Car> {
+  	console.log("plateNumber="+plateNumber);
+  	return this.http.get("http://localhost:8080/cars/"+plateNumber);
+  }
+  
   rent(car) {
     car.rented = true;
   }

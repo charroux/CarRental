@@ -21,12 +21,12 @@ export class CarsComponent implements OnInit {
     private router: Router) { }
 
   getCars(): void {
-    this.carService.getCarsWithPromise().then(cars => this.cars = cars);
-    /*this.carService.getCarsWithObservable().subscribe(
+    //this.carService.getCarsWithPromise().then(cars => this.cars = cars);
+    this.carService.getCarsWithObservable().subscribe(
        res => {
            this.cars = res;
        }
-    );*/
+    );
   }
 
   ngOnInit(): void {
@@ -38,7 +38,7 @@ export class CarsComponent implements OnInit {
   }
 
   gotoDetail(): void {
-    this.router.navigate(['/detail', this.selectedCar.id]);
+    this.router.navigate(['/detail', this.selectedCar.plateNumber]);
   }
 
 }

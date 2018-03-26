@@ -6,7 +6,7 @@ import { CarDetailComponent } from './car-detail.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/cars', pathMatch: 'full' },
-  { path: 'detail/:id', component: CarDetailComponent },
+  { path: 'detail/:plateNumber', component: CarDetailComponent },
   { path: 'cars',     component: CarsComponent }
 ];
 

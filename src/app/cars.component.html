@@ -1,6 +1,6 @@
 <hr>
 
-<h3>Part of the screen displayed by default or when "Rent a car" is sellected</h3>
+<h3>Part of the screen displayed by default or when "Rent a car" is selected</h3>
 
 <h2>Select a car:</h2>
 
@@ -8,7 +8,13 @@
 
 <ul class="cars">
   <li *ngFor="let car of cars" (click)="onSelect(car)">
-    {{car.model}}: {{car.price}} euros/day
+  	{{car.plateNumber}}: {{car.model}}: {{car.price}} euros/day
+  	<div *ngIf="car.rented == false">
+  		TO BE RENTED
+  	</div>
+  	<div *ngIf="car.rented == true">
+  		RENTED
+  	</div>
   </li>
 </ul>
 

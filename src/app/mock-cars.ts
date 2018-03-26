@@ -1,7 +1,7 @@
 import { Car } from './car';
 
 export const CARS: Car[] = [
-  { id: 0, plateNumber: 'AA 22 BB', model: 'Ferrari', price: 1500, numberOfDays: 0, rented: false },
-  { id: 1, plateNumber: 'CC 30 DD', model: 'Porsche', price: 1200, numberOfDays: 0, rented: false },
-  { id: 2, plateNumber: 'EE 44 FF', model: 'Mac Laren', price: 1000, numberOfDays: 0, rented: false }
+  { id: 0, plateNumber: 111, model: 'Ferrari', price: 1500, numberOfDays: 0, rented: false, rents: [] },
+  { id: 1, plateNumber: 222, model: 'Porsche', price: 1200, numberOfDays: 0, rented: false, rents: [] },
+  { id: 2, plateNumber: 333, model: 'Mac Laren', price: 1000, numberOfDays: 0, rented: false, rents: [] }
 ];
