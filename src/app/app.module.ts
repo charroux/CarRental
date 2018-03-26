@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { CarDetailComponent } from './car-detail.component';
 import { CarsComponent } from './cars.component';
+import { GetBackCarsComponent } from './getbackcars.component';
 import { CarService } from './car.service';
 
 
@@ -20,6 +21,7 @@ import { CarService } from './car.service';
   declarations: [
     AppComponent,
     CarDetailComponent,
+    GetBackCarsComponent, 
     CarsComponent
   ],
   providers: [

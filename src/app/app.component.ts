@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
 	<h1>{{title}}</h1>
 	<nav>
    	<a routerLink="/cars">Rent a car</a>
+   	<a routerLink="/getbackcars">Get back a car</a>
 	</nav>
 	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">Source code of the page</a>
 	<a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">Related routing</a>

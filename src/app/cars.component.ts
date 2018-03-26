@@ -13,7 +13,7 @@ import { CarService } from './car.service';
 export class CarsComponent implements OnInit {
 
   title = 'Car Rental';
-  cars;
+  cars: Car[];
   selectedCar: Car;
 
   constructor(
