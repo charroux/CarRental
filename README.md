@@ -11,14 +11,14 @@ npm install
 npm start
 
 
-# Procedure pour ajouter un nouveau composant
+# Procedure for adding a new component
 
-Ajouter un routerLink dans <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">app.component.ts</a>
+Add a routerLink into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">app.component.ts</a>
 
-Ajouter une  route dans <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a> un path + un composant + son  import
+Add a route into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>: a path + a component + its import
 
-Ajouter dans <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.module.ts">app.module.ts</a> la déclaration + import du composant
+Add into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.module.ts">app.module.ts</a> the declaration + the import of the component
 
-Créer un fichier composant (nom du fichier est dans l'immport <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>), le  nom du composant est dans les routes de app-routing.module.ts)
+Create a component (the filename is given by the import into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>), the component name is in the routes of le  nom du composant est dans les routes de <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>
 
-Créer un fichier html associé au composant (le nom de html est dans templateUrl du composant)
+Create an html file associated to the component (the name of the html file is given by the templateUrl of the component)
