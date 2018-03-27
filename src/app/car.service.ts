@@ -27,16 +27,17 @@ export class CarService {
   }
   
   getCarWithObservable(plateNumber): Observable<Car> {
-  	console.log("plateNumber="+plateNumber);
   	return this.http.get("http://localhost:8080/cars/"+plateNumber);
   }
   
-  rent(car) {
+  rent(car): Observable<any> {
     car.rented = true;
+    return this.http.put("http://localhost:8080/cars/"+car.plateNumber+"?louer=true", null);
   }
 
-  getBack(car) {
+  getBack(car): Observable<any> {
     car.rented = false;
+    return this.http.put("http://localhost:8080/cars/"+car.plateNumber+"?louer=false", null);
   }
 
 }

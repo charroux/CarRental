@@ -2,7 +2,7 @@ import { Rent } from './rent';
 
 export class Car {
   id: number;
-  plateNumber: number;
+  plateNumber: string;
   model: String;
   price: number;
   numberOfDays: number;

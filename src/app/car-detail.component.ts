@@ -26,16 +26,16 @@ export class CarDetailComponent implements OnInit {
       .subscribe(car => this.car = car);*/
      
       this.route.paramMap
-      .switchMap((params: ParamMap) => this.carService.getCarWithObservable(+params.get('plateNumber')))
+      .switchMap((params: ParamMap) => this.carService.getCarWithObservable(params.get('plateNumber')))
       .subscribe(car => this.car = car);
   }
 
   rent(car): void {
-    this.carService.rent(car);
+    this.carService.rent(car).subscribe(car => this.car = car);
   }
 
   cancelRental(car): void {
-    this.carService.getBack(car);
+    this.carService.getBack(car).subscribe(car => this.car = car);
   }
 
   goBack(): void {
