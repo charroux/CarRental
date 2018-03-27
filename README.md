@@ -13,7 +13,7 @@ npm start
 
 # Procedure pour ajouter un nouveau composant
 
-Ajouter un routerLink dans app.component.ts
+Ajouter un routerLink dans <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">app.component.ts</a>
 
 Ajouter une  route dans app-routing.module.ts (path) + un composant + son  import
 
