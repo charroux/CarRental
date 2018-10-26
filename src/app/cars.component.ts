@@ -26,7 +26,7 @@ export class CarsComponent implements OnInit {
        res => {
            this.cars = res;
        }
-    );*/
+    ); */
   }
 
   ngOnInit(): void {
