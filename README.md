@@ -1,24 +1,27 @@
-# Launch the Rest web service
-
-https://github.com/charroux/CorrectionWebServiceJPA
-
 # CarRental
 
-download an unzip the project
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
-npm install
+## Development server
 
-npm start
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-# Procedure for adding a new component
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Add a routerLink into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.component.ts">app.component.ts</a>
+## Build
 
-Add a route into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>: a path + a component + its import
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-Add into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app.module.ts">app.module.ts</a> the declaration + the import of the component
+## Running unit tests
 
-Create a component (the filename is given by the import into <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>), the component name is in the routes of le  nom du composant est dans les routes de <a href="https://github.com/charroux/CarRental/blob/master/src/app/app-routing.module.ts">app-routing.module.ts</a>
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Create an html file associated to the component (the name of the html file is given by the templateUrl of the component)
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

@@ -1,4 +1,3 @@
-import { Rent } from './rent';
 
 export class Car {
   id: number;
@@ -7,5 +6,4 @@ export class Car {
   price: number;
   numberOfDays: number;
   rented: boolean;
-  rents: Rent[];
 }
