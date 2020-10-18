@@ -6,6 +6,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## The single page app
+
+https://github.com/charroux/CarRental/blob/master/src/app/app.component.html
+
+## The app-cars definition
+
+https://github.com/charroux/CarRental/blob/master/src/app/cars/cars.component.ts
+
+## The related view
+
+https://github.com/charroux/CarRental/blob/master/src/app/cars/cars.component.html
+
+## The underlying service
+
+https://github.com/charroux/CarRental/blob/master/src/app/car.service.ts
+
+## The data class
+
+https://github.com/charroux/CarRental/blob/master/src/app/car.ts
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
